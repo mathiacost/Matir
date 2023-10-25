@@ -12,7 +12,7 @@ const Cart = () => {
         return (
             <div>
                 <h1>No hay items en el carrito</h1>
-                <Link to='/' className='Option'>Productos</Link>
+                <Link to='/' className='option'>Productos</Link>
             </div>
         )
     }
@@ -21,14 +21,16 @@ const Cart = () => {
         <div>
         {cart.length
         ?<div>
-        {cart.map(p => <CartItem key={p.id}{...p}/>)}
+        {cart.map((p) => <CartItem key={p.id}{...p}/>)}
         <h3>Total: ${total}</h3>
-        <button onClick={() => clearCart} className='Button'>Limpiar carrito</button>
-        <Link to= '/checkout' className='Option'>Checkout</Link>
+        <div>
+            <button onClick={() => clearCart} className='option'>Limpiar carrito</button>
+            <Link to= '/checkout' className='option'>Checkout</Link>
+        </div>
     </div>
         : <div>
             <h3>No hay items en el carrito</h3>
-            <Link to='/' className='Option'>Ir a comprar</Link>
+            <Link to='/' className='option'>Ir a comprar</Link>
         </div>
         }
     </div>

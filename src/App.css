@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background: #2b2b2b;
+  height: ;
   color: #FBCEAA;
 }
 
@@ -109,8 +110,8 @@
 }
 
 .option{
-  margin: 5px, 10px, 5px 10px;
-  padding: 2px, 1px;
+  margin: 10px;
+  padding: 8px;
   background: #FBCEAA;
   border: none;
   color: #232323;
@@ -121,14 +122,11 @@
 }
 
 .option:hover{
-  margin: 7px, 12px, 7px 12px;
-  padding: 2px, 1px;
   background: #c79d7f;
   border: none;
   color: #232323;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  
 }
 

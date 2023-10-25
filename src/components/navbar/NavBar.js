@@ -13,12 +13,12 @@ const NavBar = () => {
                     <img src={LogoMatir} alt="Logo del restoran" className="logo" />
                 </Link>
             <div className='Categories'>
-                <NavLink to={`/category/minutas`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Minutas</NavLink>
-                <NavLink to={`/category/sanguches`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Sanguches</NavLink>
-                <NavLink to={`/category/olla`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Olla</NavLink>
-                <NavLink to={`/category/bebida`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Bebida</NavLink>
+                <NavLink to={`/category/minutas`} className={({ isActive}) => isActive ? 'ActiveOption' : 'option'}>Minutas</NavLink>
+                <NavLink to={`/category/sanguches`} className={({ isActive}) => isActive ? 'ActiveOption' : 'option'}>Sanguches</NavLink>
+                <NavLink to={`/category/olla`} className={({ isActive}) => isActive ? 'ActiveOption' : 'option'}>Olla</NavLink>
+                <NavLink to={`/category/bebida`} className={({ isActive}) => isActive ? 'ActiveOption' : 'option'}>Bebida</NavLink>
             </div>
-            <NavLink style = {{textDecoration:'none'}} to='/cart'><CartWidget /> </NavLink>
+            <NavLink style = {{textDecoration:'none'}} to='/cart'><CartWidget/> </NavLink>
             
         </nav>
     );
