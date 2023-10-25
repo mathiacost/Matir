@@ -14,7 +14,7 @@ const ItemDetail = ({id, name, price, category, img, stock, description}) => {
         serQuantityAdded(quantity)
 
         const item = {
-            id,name,price
+            id,name,price,img
         }
 
         addItem(item, quantity)
@@ -32,7 +32,7 @@ const ItemDetail = ({id, name, price, category, img, stock, description}) => {
             </picture>
             <section>
                 <p className='Info'>
-                    Categoria: ${category}
+                    Categoria: {category}
                 </p>
                 <p className='Info'>
                     ${description}
@@ -56,6 +56,8 @@ const ItemDetail = ({id, name, price, category, img, stock, description}) => {
                 {/* <button className='Option'>Ver detalle</button> */}
             </footer>
         </article>
+
+//       
     )
 }
 
