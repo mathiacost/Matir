@@ -53,7 +53,6 @@ const ItemDetail = ({id, name, price, category, img, stock, description}) => {
                     )
                 }
                 
-                {/* <button className='Option'>Ver detalle</button> */}
             </footer>
         </article>
 

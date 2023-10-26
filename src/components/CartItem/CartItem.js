@@ -3,6 +3,7 @@ import { CartContext } from "../../Context/CartContext";
 
 const CartItem = ({item}) =>{
     const {removeItem}= useContext(CartContext)
+    
     return(
         <div className="d-flex justify-content-arround align-items-center">
             <img src={item.img} alt={item.name}/>

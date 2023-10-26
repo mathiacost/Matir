@@ -21,7 +21,7 @@ const Cart = () => {
         <div>
         {cart.length
         ?<div>
-        {cart.map((p) => <CartItem key={p.id}{...p}/>)}
+        {cart.map(p => <CartItem key={p.id}{...p}/>)}
         <h3>Total: ${total}</h3>
         <div>
             <button onClick={() => clearCart} className='option'>Limpiar carrito</button>
