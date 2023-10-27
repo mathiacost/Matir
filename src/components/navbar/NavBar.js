@@ -13,10 +13,10 @@ const NavBar = () => {
                     <img src={LogoMatir} alt="Logo del restoran" className="logo" />
                 </Link>
             <div className='Categories'>
-                <NavLink to={`/category/minutas`} className={({ isActive}) => isActive ? 'ActiveOption' : 'option'}>Minutas</NavLink>
-                <NavLink to={`/category/sanguches`} className={({ isActive}) => isActive ? 'ActiveOption' : 'option'}>Sanguches</NavLink>
-                <NavLink to={`/category/olla`} className={({ isActive}) => isActive ? 'ActiveOption' : 'option'}>Olla</NavLink>
-                <NavLink to={`/category/bebida`} className={({ isActive}) => isActive ? 'ActiveOption' : 'option'}>Bebida</NavLink>
+                <NavLink to={`/category/Minutas`} className={({ isActive}) => isActive ? 'ActiveOption' : 'option'}>Minutas</NavLink>
+                <NavLink to={`/category/Sanguches`} className={({ isActive}) => isActive ? 'ActiveOption' : 'option'}>Sanguches</NavLink>
+                <NavLink to={`/category/Olla`} className={({ isActive}) => isActive ? 'ActiveOption' : 'option'}>Olla</NavLink>
+                <NavLink to={`/category/Bebida`} className={({ isActive}) => isActive ? 'ActiveOption' : 'option'}>Bebida</NavLink>
             </div>
             <NavLink style = {{textDecoration:'none'}} to='/cart'><CartWidget/> </NavLink>
             
