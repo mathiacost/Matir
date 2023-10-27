@@ -28,7 +28,7 @@ const ItemDetail = ({id, name, price, category, img, stock, description}) => {
                 </h2>
             </header>
             <picture>
-                <img scr={img} alt={name} className='ItemImg'/>
+                <img src={img} alt={name} className='ItemImg'/>
             </picture>
             <section>
                 <p className='Info'>

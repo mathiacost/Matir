@@ -1,34 +1,25 @@
 // //asyncMock
-// import gramajoImg from './public/img/Gramajo.jpg';
-// import napoImg from './public/img/Napolitana.jpg';
-// import bifeImg from './public/img/Bife.jpg';
-// import cocaImg from './public/img/Coca.jpg';
-// import aguaImg from './public/img/Agua.jpg';
-// import chedarImg from './public/img/chedar.jpg';
-// import baconImg from './public/img/bacon.jpg';
-// import lentejasImg from './public/img/lentejas.jpg';
-// import feijoadaImg from './public/img/Feijoada.jpg';
-// import mariscosImg from './public/img/Mariscos.jpg';
+// import gramajoImg from '../img/Gramajo.jpg';
+// import napoImg from '../img/Napolitana.jpg';
+// import bifeImg from '../img/Bife.jpg';
+// import cocaImg from '../img/Coca.jpg';
+// import aguaImg from '../img/Agua.jpg';
+// import chedarImg from '../img/chedar.jpg';
+// import baconImg from '../img/bacon.jpg';
+// import lentejasImg from '../img/lentejas.jpg';
+// import feijoadaImg from '../img/Feijoada.jpg';
+// import mariscosImg from '../img/Mariscos.jpg';
 
-const products = [
-    {
-        id: '1',
-        name: 'Milanesa Napolitana',
-        price: 850,
-        category: 'Minutas',
-        img: '',
-        stock: 50,
-        description: 'Milanesa de carne con Jamon y queso bañado en salsa de tomate con Papas fritas de guarnicion'
-    },
-    { id: '2', name: 'Gramajo', price: 550, category: 'Minutas', img: '', stock: 50, description: 'Papas, huevo, panceta, ajo, cebolla y morron' },
-    { id: '3', name: 'Bife encebollado', price: 650, category: 'Minutas', img: '', stock: 50, description: 'Bistec de ternera, cebolla, morron, Salsa de la casa, pure de papas'},
-    { id: '4', name: 'Cocacola', price: 150, category: 'Bebida', img: '', stock: 50, description: 'colaclola normal, zero o light'},
-    { id: '5', name: 'Agua', price: 100, category: 'Bebida', img: '', stock: 50, description: 'agua mineral'},
-    { id: '6', name: 'Hamburgesa con chedar', price: 280, category: 'Sanguches', img: '', stock: 50, description: 'haburgesa con chedar de la casa'},
-    { id: '7', name: 'Hamburguesa 2 Bacon', price: 450, category: 'Sanguches', img: '', stock: 50, description: 'haburgesa doblecarne con bacon'},
-    { id: '8', name: 'Guiso de lentejas', price: 570, category: 'Olla', img: '', stock: 50, description: 'Guiso de lentejas casero con choriso y carne vacuna'},
-    { id: '9', name: 'Feijoada', price: 680, category: 'Olla', img: '', stock: 50, description: 'Porotos negros con caldo cocinado estilo brasilero'},
-    { id: '10', name: 'Sopa de mariscos', price: 750, category: 'Olla', img: '', stock: 50, description: 'Sopa con mejillones, calamares y rabas'},
+export const products = [
+    { name: 'Gramajo', price: 550, category: 'Minutas', img: '../img/Gramajo.jpg', stock: 50, description: 'Papas, huevo, panceta, ajo, cebolla y morron' },
+    { name: 'Bife encebollado', price: 650, category: 'Minutas', img: '../img/Bife.jpg', stock: 50, description: 'Bistec de ternera, cebolla, morron, Salsa de la casa, pure de papas'},
+    { name: 'Cocacola', price: 150, category: 'Bebida', img: '../img/Coca.jpg', stock: 50, description: 'colaclola normal, zero o light'},
+    { name: 'Agua', price: 100, category: 'Bebida', img: '../img/Agua.jpg', stock: 50, description: 'agua mineral'},
+    { name: 'Hamburgesa con chedar', price: 280, category: 'Sanguches', img: '../img/chedar.jpg', stock: 50, description: 'haburgesa con chedar de la casa'},
+    { name: 'Hamburguesa 2 Bacon', price: 450, category: 'Sanguches', img: '../img/bacon.jpg', stock: 50, description: 'haburgesa doblecarne con bacon'},
+    { name: 'Guiso de lentejas', price: 570, category: 'Olla', img: '../img/lentejas.jpg', stock: 50, description: 'Guiso de lentejas casero con choriso y carne vacuna'},
+    { name: 'Feijoada', price: 680, category: 'Olla', img: '../img/Feijoada.jpg', stock: 50, description: 'Porotos negros con caldo cocinado estilo brasilero'},
+    { name: 'Sopa de mariscos', price: 750, category: 'Olla', img: '../img/Mariscos.jpg', stock: 50, description: 'Sopa con mejillones, calamares y rabas'},
     
 ]
 
