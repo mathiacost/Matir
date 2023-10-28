@@ -149,3 +149,12 @@ body{
   border: none;
 }
 
+.cartItemImg{
+  width: 170px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.cartElement{
+  padding: 25px;
+}

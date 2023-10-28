@@ -11,17 +11,7 @@ const ItemDetailContainer = () => {
     const [product, setProduct] = useState({})
 
     const { itemId } = useParams()
-
-    // useEffect(() => {
-    //     getProductById(itemId)
-    //         .then(response =>{
-    //             setProduct(response)
-    //         })
-    //         .catch(error => {
-    //             console.error(error)
-    //         })
-    // }, [itemId])
-
+    
 useEffect(()=>{
     const collectionProd = collection(db,"products")
     const referenciaAlDoc= doc(collectionProd, itemId)
